@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+  REACT_APP_NETLIFY_CLIENT_ID = "07b77d90049181febc5fd7b52d9a873700248ee99bdb1ba594f7853b878e3c3e"
+
+[[headers]]
+  for = "/assets/fonts/*"
+  [headers.value]
+    Cache-Control = "public, max-age=86400"

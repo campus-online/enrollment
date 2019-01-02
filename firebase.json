@@ -1,0 +1,4 @@
+{
+  "database": {"rules": "database.json"},
+  "functions": {"source": "functions"}
+}

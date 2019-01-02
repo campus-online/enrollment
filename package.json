@@ -1,0 +1,44 @@
+{
+  "name": "@campus-online/enrollment",
+  "version": "0.0.0-alpha",
+  "homepage": "https://matricula.campus.kunst.cloud/",
+  "private": true,
+  "scripts": {
+    "dev": "react-scripts start",
+    "lint": "eslint 'src' 'functions'",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "deploy": "firebase deploy"
+  },
+  "dependencies": {
+    "eslint-plugin-react": "^7.12.1",
+    "firebase": "^5.5.2",
+    "firebase-key": "^2.0.1",
+    "invariant": "^2.2.4",
+    "polished": "^2.2.0",
+    "react": "^16.5.2",
+    "react-app-polyfill": "^0.2.0",
+    "react-display-name": "^0.2.4",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-scripts": "2.1.2",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.6.1",
+    "redux-implicit-oauth2": "^1.2.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^4.1.3",
+    "timesince": "^0.1.0-alpha.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "5.6.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
