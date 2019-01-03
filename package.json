@@ -3,6 +3,7 @@
   "version": "0.0.0-alpha",
   "homepage": "https://matricula.campus.kunst.cloud/",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "react-scripts start",
     "lint": "eslint 'src' 'functions'",
