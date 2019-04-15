@@ -2,6 +2,9 @@
   "name": "@campus-online/enrollment-functions",
   "version": "0.0.0-alpha",
   "private": true,
+  "engines": {
+    "node": "8"
+  },
   "dependencies": {
     "axios": "^0.18.0",
     "cors": "^2.8.5",
