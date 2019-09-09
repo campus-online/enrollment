@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components/macro'
 
+/* eslint-disable jsx-a11y/anchor-has-content */
+
 const AnchorElement = (props) => {
     if(!props.href) return <span {...props} />
     if (/^[./]/.test(props.href)) return <a {...props}/>
