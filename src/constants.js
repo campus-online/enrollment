@@ -3,7 +3,7 @@ import {mix} from 'polished'
 // ----------------------------------------------------
 // General
 // ----------------------------------------------------
-export const canonicalURL = 'https://campus.kunst.cloud'
+export const canonicalURL = 'https://campus.fac.unb.br/'
 export const adminURL = 'https://campus-content.netlify.com/admin/#/'
 
 // ----------------------------------------------------
