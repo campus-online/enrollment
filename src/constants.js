@@ -4,6 +4,7 @@ import {mix} from 'polished'
 // General
 // ----------------------------------------------------
 export const canonicalURL = 'https://campus.kunst.cloud'
+export const adminURL = 'https://campus-content.netlify.com/admin/#/'
 
 // ----------------------------------------------------
 // Sizes [Grid, Container & Breakpoints]

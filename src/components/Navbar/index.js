@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components/macro'
-import {canonicalURL} from '../../constants'
+import {canonicalURL, adminURL} from '../../constants'
 import {above} from '../../utils/responsive'
 import Container from '../Container'
 import Anchor from './Anchor'
@@ -50,8 +50,8 @@ const Navbar = ({links}) => (
 
 Navbar.defaultProps = {
 	links: [
-		{href: `${canonicalURL}/admin`, label: 'cms'},
-		{href: `${canonicalURL}`, label: 'site'},
+		{href: adminURL, label: 'cms'},
+		{href: canonicalURL, label: 'site'},
 	],
 }
 
