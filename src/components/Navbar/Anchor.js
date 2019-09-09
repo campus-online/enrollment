@@ -1,6 +1,13 @@
+import React from 'react'
 import styled from 'styled-components/macro'
 
-const Anchor = styled.a`
+const AnchorElement = (props) => {
+    if(!props.href) return <span {...props} />
+    if (/^[./]/.test(props.href)) return <a {...props}/>
+    return <a {...props} target='_blank' rel='noopener noreferrer' />
+}
+
+const Anchor = styled(AnchorElement)`
 	display: block;
 	cursor: pointer;
 	text-decoration: none;
